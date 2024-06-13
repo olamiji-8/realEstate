@@ -19,7 +19,7 @@ const Footer = () => {
 
   // Footer content for desktop view
   const desktopFooter = (
-    <footer className="bg-gray-900 text-white py-16">
+    <footer className="bg-[#001731] text-white py-16">
       <div className="container mx-auto px-4 flex md:flex-row justify-between items-center">
         <div className="flex space-x-12">
           <div className="flex flex-col space-y-6 group">
@@ -87,14 +87,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-12 border-t border-gray-700 pt-8">
-        <p className="text-center text-gray-400">&copy; 2023 Your Company. All rights reserved.</p>
+        <p className="text-center text-gray-400">&copy; 2024 Your Company. All rights reserved.</p>
       </div>
     </footer>
   );
 
   // Footer content for mobile view
   const mobileFooter = (
-    <footer className="bg-gray-900 text-white py-16">
+    <footer className="bg-[#001731] text-white py-16">
       <div className="container mx-auto px-4 flex flex-col justify-between items-center">
         <div className="flex flex-col space-y-8">
           <div className="flex flex-col space-y-6 group">
@@ -161,7 +161,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-700 pt-8">
-          <p className="text-center text-gray-400">&copy; 2023 Your Company. All rights reserved.</p>
+          <p className="text-center text-gray-400">&copy; 2024 Your Company. All rights reserved.</p>
         </div>
       </div>
     </footer>

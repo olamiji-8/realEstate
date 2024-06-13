@@ -27,7 +27,7 @@ const Navbar = () => {
     <>
       {/* Desktop Navbar */}
       {!isMobile && (
-        <nav className="bg-[#232536] flex justify-between items-center px-8 py-4">
+        <nav className="bg-[#001731] flex justify-between items-center px-8 py-4">
           <Link to="/">
             <div className="text-white text-2xl font-bold">LOGO</div>
           </Link>
@@ -43,11 +43,6 @@ const Navbar = () => {
             </Link>
             <Link to="/contact" className="text-white">
               Contact Us
-            </Link>
-            <Link to="/subscribe">
-              <button className="bg-white text-black px-4 py-2 rounded-md">
-                Subscribe
-              </button>
             </Link>
           </div>
         </nav>

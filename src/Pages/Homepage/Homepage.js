@@ -4,7 +4,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 
 const Homepage = () => {
   return (
-    <div className=" group bg-black text-white min-h-screen flex flex-col">
+    <div className=" group bg-[#495d83] text-white min-h-screen flex flex-col">
         <Navbar/>
         <div className="flex-grow flex items-center justify-center px-2">
         <div className="max-w-4xl w-full px-6 py-12"> {/* Added padding */}
